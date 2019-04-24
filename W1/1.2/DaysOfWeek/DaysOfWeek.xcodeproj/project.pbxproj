@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CACAF83421F7854E007F95FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACAF83321F7854E007F95FE /* AppDelegate.swift */; };
+		CACAF83921F7854E007F95FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACAF83721F7854E007F95FE /* Main.storyboard */; };
+		CACAF83B21F78550007F95FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACAF83A21F78550007F95FE /* Assets.xcassets */; };
+		CACAF83E21F78550007F95FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACAF83C21F78550007F95FE /* LaunchScreen.storyboard */; };
+		CACAF84621F787B5007F95FE /* DayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACAF84521F787B5007F95FE /* DayModel.swift */; };
+		CACAF84B21F78A54007F95FE /* DayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACAF84A21F78A54007F95FE /* DayController.swift */; };
+		CACAF84E21F78DAC007F95FE /* DayListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACAF84D21F78DAC007F95FE /* DayListTableViewController.swift */; };
+		CACAF85021F79745007F95FE /* DayDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACAF84F21F79745007F95FE /* DayDetailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CACAF83021F7854E007F95FE /* DaysOfWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaysOfWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACAF83321F7854E007F95FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CACAF83821F7854E007F95FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CACAF83A21F78550007F95FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CACAF83D21F78550007F95FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CACAF83F21F78550007F95FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CACAF84521F787B5007F95FE /* DayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayModel.swift; sourceTree = "<group>"; };
+		CACAF84A21F78A54007F95FE /* DayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayController.swift; sourceTree = "<group>"; };
+		CACAF84D21F78DAC007F95FE /* DayListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayListTableViewController.swift; sourceTree = "<group>"; };
+		CACAF84F21F79745007F95FE /* DayDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CACAF82D21F7854E007F95FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CACAF82721F7854E007F95FE = {
+			isa = PBXGroup;
+			children = (
+				CACAF83221F7854E007F95FE /* DaysOfWeek */,
+				CACAF83121F7854E007F95FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CACAF83121F7854E007F95FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CACAF83021F7854E007F95FE /* DaysOfWeek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CACAF83221F7854E007F95FE /* DaysOfWeek */ = {
+			isa = PBXGroup;
+			children = (
+				CACAF84C21F78A60007F95FE /* Model Controllers */,
+				CACAF84721F7890F007F95FE /* Model */,
+				CACAF84921F7892D007F95FE /* Source Files */,
+				CACAF84821F7891F007F95FE /* Storyboards */,
+			);
+			path = DaysOfWeek;
+			sourceTree = "<group>";
+		};
+		CACAF84721F7890F007F95FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CACAF84521F787B5007F95FE /* DayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CACAF84821F7891F007F95FE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CACAF83721F7854E007F95FE /* Main.storyboard */,
+				CACAF83C21F78550007F95FE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CACAF84921F7892D007F95FE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CACAF83321F7854E007F95FE /* AppDelegate.swift */,
+				CACAF83A21F78550007F95FE /* Assets.xcassets */,
+				CACAF83F21F78550007F95FE /* Info.plist */,
+			);
+			path = "Source Files";
+			sourceTree = "<group>";
+		};
+		CACAF84C21F78A60007F95FE /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CACAF84A21F78A54007F95FE /* DayController.swift */,
+				CACAF84D21F78DAC007F95FE /* DayListTableViewController.swift */,
+				CACAF84F21F79745007F95FE /* DayDetailVC.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CACAF82F21F7854E007F95FE /* DaysOfWeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACAF84221F78550007F95FE /* Build configuration list for PBXNativeTarget "DaysOfWeek" */;
+			buildPhases = (
+				CACAF82C21F7854E007F95FE /* Sources */,
+				CACAF82D21F7854E007F95FE /* Frameworks */,
+				CACAF82E21F7854E007F95FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaysOfWeek;
+			productName = DaysOfWeek;
+			productReference = CACAF83021F7854E007F95FE /* DaysOfWeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CACAF82821F7854E007F95FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "ya boy E";
+				TargetAttributes = {
+					CACAF82F21F7854E007F95FE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = CACAF82B21F7854E007F95FE /* Build configuration list for PBXProject "DaysOfWeek" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CACAF82721F7854E007F95FE;
+			productRefGroup = CACAF83121F7854E007F95FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CACAF82F21F7854E007F95FE /* DaysOfWeek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CACAF82E21F7854E007F95FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACAF83E21F78550007F95FE /* LaunchScreen.storyboard in Resources */,
+				CACAF83B21F78550007F95FE /* Assets.xcassets in Resources */,
+				CACAF83921F7854E007F95FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CACAF82C21F7854E007F95FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACAF84E21F78DAC007F95FE /* DayListTableViewController.swift in Sources */,
+				CACAF84B21F78A54007F95FE /* DayController.swift in Sources */,
+				CACAF85021F79745007F95FE /* DayDetailVC.swift in Sources */,
+				CACAF84621F787B5007F95FE /* DayModel.swift in Sources */,
+				CACAF83421F7854E007F95FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CACAF83721F7854E007F95FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CACAF83821F7854E007F95FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CACAF83C21F78550007F95FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CACAF83D21F78550007F95FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CACAF84021F78550007F95FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CACAF84121F78550007F95FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CACAF84321F78550007F95FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8Z88H6B28;
+				INFOPLIST_FILE = "$(SRCROOT)/DaysOfWeek/Source Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethansapps.DaysOfWeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CACAF84421F78550007F95FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8Z88H6B28;
+				INFOPLIST_FILE = "$(SRCROOT)/DaysOfWeek/Source Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethansapps.DaysOfWeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CACAF82B21F7854E007F95FE /* Build configuration list for PBXProject "DaysOfWeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACAF84021F78550007F95FE /* Debug */,
+				CACAF84121F78550007F95FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACAF84221F78550007F95FE /* Build configuration list for PBXNativeTarget "DaysOfWeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACAF84321F78550007F95FE /* Debug */,
+				CACAF84421F78550007F95FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CACAF82821F7854E007F95FE /* Project object */;
+}
